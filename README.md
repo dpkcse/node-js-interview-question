@@ -61,7 +61,7 @@ CommonJS Modules is the Standard how to code modules are structured. It specifie
 require() is used to include modules from external files in Node Js. It is the easiest way to include a module in Node. Basically require is a function that takes a string parameter which contains the location of the file that you want to include. It reads the entire javascript file, executes the file, and then proceeds to return the exports object.
 Syntax:
 
-```
+```node
 require('path');
 ```
 
